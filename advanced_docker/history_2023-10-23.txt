@@ -1,0 +1,178 @@
+    1  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\n
+    2  nano ~/.zshrc\n
+    3  source ~/.zshrc\n
+    4  exit
+    5  docker --version
+    6  sudo apt update
+    7  sudo apt install docker.io
+    8  sudo systemctl start docker
+    9  sudo systemctl enable docker
+   10  docker --version
+   11  ls
+   12  PROMPT="%F{blue}%n%F{green}@%m %F{cyan}%~%F{white}%# %f"\n
+   13  cd Bureau
+   14  ls
+   15  cd ..
+   16  cd Desktop
+   17  cls
+   18  clear
+   19  cd Documents/GithubProject
+   20  ls
+   21  cd M1Learning
+   22  git fetch
+   23  cd ..
+   24  PROMPT="%F{blue}%n%F{green}@%m %F{cyan}%~%F{white}%# %f"\n
+   25  nano ~/.zshrc\n
+   26  cd Bureau
+   27  clear
+   28  history\n
+   29  cd ..
+   30  cd Documents/GithubProject
+   31  cd M1Learning
+   32  git status
+   33  git add .
+   34  git commit -m "[Exercise] Add new"
+   35  git push
+   36  ls
+   37  mkdir advanced_docker
+   38  cd advanced_docker
+   39  code README.md
+   40  rm -r leasons
+   41  ls
+   42  mkdir lesson
+   43  mkdir lessons
+   44  rm -r lesson
+   45  ls
+   46  mkdir ex-1
+   47  cd ex-1
+   48  docker run docker/whalesay cowsay "Hello, World
+   49  docker run docker/whalesay cowsay "Hello, World"
+   50  sudo docker run docker/whalesay cowsay "Hello, World"
+   51  sudo su
+   52  nano ~/.zshrc\n
+   53  sudo su
+   54  docker --version
+   55  docker
+   56  docker run docker/whalesay cowsay "Hello, World"
+   57  sudo usermod -aG docker $USER\n
+   58  docker run docker/whalesay cowsay "Hello, World"
+   59  docker run docker/whalesay cowsay "Hello, World"\n
+   60  Mohamed LAZAR
+   61  docker --help
+   62  cls
+   63  clear
+   64  docker images
+   65  docker search python
+   66  docker pull python
+   67  docker pull pypy:slim-bullseye
+   68  docker ps -a
+   69  docker run d2
+   70  sudo su
+   71  docker run 99
+   72  docker run 99de682faf91
+   73  docker images
+   74  docker run 98
+   75  docker ps -a
+   76  docker stop $(docker ps -q)\n
+   77  docker ps -Q
+   78  docker ps -q
+   79  docker ps -q && docker stop $(docker ps -q)\n
+   80  docker stop
+   81  docker run -d 98 tail -f /dev/null
+   82  docker ps -a
+   83  docker stop 6e
+   84  docker ps -a
+   85  docker ps
+   86  docker run -d py tail -f /dev/null
+   87  docker ps -a
+   88  docker run -d 98 tail -f /dev/null
+   89  docker ps -a
+   90  ls
+   91  docker exec -it 98 bin/bash
+   92  docker exec -it 9c bin/bash
+   93  docker images
+   94  docker exec -it 9c bin/bash
+   95  docker run 98
+   96  docker ps -a
+   97  docker stop 9c
+   98  docker stop ef
+   99  docker ps
+  100  docker start 9c
+  101  docker ps
+  102  docker rm 9c
+  103  docker rm af
+  104  docker rm 99
+  105  docker rm d2
+  106  docker ps -a
+  107  cd Documents/GithubProject/M1Learning
+  108  ls
+  109  cd advanced_docker
+  110  mkdir programs
+  111  cd programs
+  112  docker ps -a
+  113  docker ps
+  114  ls
+  115  docker cp comptage.py 9c9:/comptage.py
+  116  docker exec -it 9c python /comptage.py
+  117  docker exec -it 9c python /comptage.py "fgdgdfgdgdfg"
+  118  docker exec -it 9c python /comptage.py "Hello word\n
+  119  docker exec -it 9c python /comptage.py Hello word!\n
+  120  docker exec -it 9c python /comptage.py "Hello word! "\n
+  121  docker stats
+  122  cls
+  123  clear
+  124  docker run -ti dyego/snake-game
+  125  docker ps -a
+  126  docker container prune
+  127  docker ps -a
+  128  docker image prune
+  129  docker image 
+  130  docker images
+  131  docker ps
+  132  docker stop 9c
+  133  sudo apt install xfce4-clipman-plugin\n
+  134  xfce4-clipman
+  135  docker pull php:7.4-cli\n
+  136  docker run -d php:7.4-cli tail -f /dev/null\n
+  137  docker cp primechecker.php bb:/primechecker.php
+  138  docker ps
+  139  docker exec bb php /primechecker.php
+  140  docker exec bb php /primechecker.php 17
+  141  docker ps
+  142  docker ps -a
+  143  docker start 9c
+  144  docker ps -a
+  145  docker cp passwordGenerator.py 9c:/passwordGenerator.py
+  146  docker exec -it 9c python /passwordGenerator.py\n
+  147  cd ..
+  148  cd ex-18
+  149  touch Dockerfile
+  150  code Dockerfile
+  151  docker build -t generate-password-app .
+  152  docker ps
+  153  docker images
+  154  docker start 9c
+  155  docker ps
+  156  docker images
+  157  docker run -d b1 tail -f /dev/null
+  158  docker ps
+  159  docker exec -it d1 python /passwordGenerator.py --length 48\n
+  160  docker exec -it b1 python /passwordGenerator.py --length 48\n
+  161  docker run -d generate-password-app tail -f /dev/null
+  162  docker exec -it 0e python /passwordGenerator.py --length 48\n
+  163  docker cp passwordGenerator.py b1:/passwordGenerator.py
+  164  docker cp passwordGenerator.py 0e:/passwordGenerator.py
+  165  docker exec -it 0e python /passwordGenerator.py --length 48\n
+  166  docker top d1
+  167  docker container prune
+  168  docker ps -a
+  169  docker stop 0e
+  170  docker rm $(docker ps -a -q)
+  171  docker rm $(docker ps -q)
+  172  docker stop $(docker ps -q)
+  173  docker ps
+  174  docker container prune
+  175  docker ps -a
+  176  history\n
+  177  cd..
+  178  cd ..
