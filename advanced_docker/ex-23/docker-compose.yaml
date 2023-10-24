@@ -4,7 +4,7 @@ services:
     build:
       context: ./docker
       dockerfile: Dockerfile
-    command: tail -f /dev/null
+    command: --init-file /docker-entrypoint-initdb.d/library_dump.sql
     volumes:
       - db-data:/var/lib/mysql
     environment:
@@ -12,6 +12,5 @@ services:
       MYSQL_DATABASE: library
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
-    command: --init-file /docker-entrypoint-initdb.d/library_dump.sql
 volumes:
   db-data:
