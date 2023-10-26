@@ -11,6 +11,7 @@
 - Solution :
 
     - Stop all container : `docker stop $(docker ps -q)`
+    - Stop all compose container : `docker-compose down`
     - Delete all container : `docker container prune`
     - Remove docker volume : `docker volume rm ex-24_db-data`
     - Re try : `docker-compose up -d`
