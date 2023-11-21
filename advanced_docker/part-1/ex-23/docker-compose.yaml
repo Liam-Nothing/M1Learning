@@ -2,7 +2,7 @@ version: "3.9"
 services:
   mysql:
     build:
-      context: ./db
+      context: ./docker
       dockerfile: Dockerfile
     command: --init-file /docker-entrypoint-initdb.d/library_dump.sql
     volumes:

@@ -9,5 +9,6 @@ pkg-config \
 musl-tools
 RUN rustup target add x86_64-unknown-linux-musl
 RUN cargo build --release --target x86_64-unknown-linux-musl
+
 FROM scratch
 COPY --from=build /app/target/x86_64-unknown-linux-musl/release/rust-weather /rust-weather
